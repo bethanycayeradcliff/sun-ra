@@ -1,0 +1,46 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://bethanycayeradcliff.github.io/sun-ra/prophtika/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Prophtika" ] },
+    "homepage": [
+      {
+        "id": "https://open.spotify.com/artist/0tIODqvzGUoEaK26rK4pvX?si=RJNWWDMIS_qy9QW17l8c8A",
+        "type": "Text",
+        "label": { "en": [ "Home page for Prophtika" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.spotify.com/",
+        "type": "Agent",
+        "label": { "en": [ "Spotify" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://bethanycayeradcliff.github.io/sun-ra/prophtika/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 198.0,
+        "items": [
+          {
+            "id": "https://bethanycayeradcliff.github.io/sun-ra/prophtika/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://bethanycayeradcliff.github.io/sun-ra/prophtika/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://open.spotify.com/track/1eh8iHi4FejKP5elbDQyox?si=IxfzKshaTaKqAzujZah9AA",
+                    "duration": 198.0
+                },
+                "target": "https://bethanycayeradcliff.github.io/sun-ra/prophtika/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
